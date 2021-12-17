@@ -1,0 +1,26 @@
+We have the following grids:
+----------------------------
+
+ICON-A grid (20480 grid cells in the horizontal, 31 full levels in the vertical)
+- Horizontal fields: icon_grid_0013_R02B04_G.nc
+- Vertically - Half Levels: zghalf_icon-a_capped.nc
+- Vertically - Full Levels: zg_icon-a_capped.nc
+
+ICON-A grid (81920 grid cells in the horizontal, 31 full levels in the vertical)
+- Horizontal fields: icon_grid_0019_R02B05_G.nc
+- Vertically - Half Levels: zghalf_icon-a_capped_R02B05.nc
+- Vertically - Full Levels: zg_icon-a_capped_R02B05.nc
+
+Intermediate grid (20480 grid cells in the horizontal, 191 full levels in the vertical)
+- qubicc_l191_zg_ml_0015_R02B04_G.nc
+
+Intermediate grid (20480 grid cells in the horizontal, 92 half levels in the vertical)
+- qubicc_l91_zghalf_ml_0015_R02B04_G.nc
+
+Intermediate grid (81920 grid cells in the horizontal, 92 half levels in the vertical)
+- qubicc_l91_zghalf_ml_0019_R02B05_G.nc
+
+Intermediate grid (81920 grid cells in the horizontal, 192 half levels in the vertical)
+- qubicc_l191_zghalf_ml_0019_R02B05_G.nc
+
+[Original QUBICC grid (20971520 grid cells in the horizontal, 191 full levels in the vertical): Size is too large.]
