@@ -1,0 +1,2 @@
+Trial-ID,Status,Iteration,activation_1,activation_2,activation_3,dropout,epsilon,l1_reg,l2_reg,lrinit,model_depth,num_units,Objective
+1,COMPLETED,1,<function leaky_relu at 0x2b2ce7e0df80>,elu,,0.2940800998896502,0.1,0.0018187978174234922,0.0012057042591172363,0.0046608695229256765,3,128,62.68577194213867

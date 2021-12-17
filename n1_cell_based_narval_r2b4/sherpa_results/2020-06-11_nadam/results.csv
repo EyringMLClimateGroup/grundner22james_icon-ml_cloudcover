@@ -1,0 +1,4 @@
+Trial-ID,Status,Iteration,activation_1,activation_2,activation_3,activation_4,activation_5,activation_6,activation_7,batch_size,bn_1,bn_2,bn_3,bn_4,bn_5,bn_6,bn_7,epsilon,lrinit,model_depth,num_units,Objective
+1,COMPLETED,74,relu,relu,,,,,,32,0,0.0,,,,,,1e-07,0.001,3,256,14.252577064410854
+2,COMPLETED,37,elu,,,,,,,32,0,,,,,,,1e-07,0.024726481883606013,2,256,19.66976608008349
+3,COMPLETED,68,relu,,,,,,,32,0,,,,,,,1e-07,0.0010695948787002453,2,64,19.31123276661158

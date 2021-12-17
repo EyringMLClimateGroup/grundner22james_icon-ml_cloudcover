@@ -1,0 +1,5 @@
+No Shuffling
+Linear activation function
+Batch size 1028
+No initial set of good hyperparameters
+'lrinit': [1e-4, 1e-1]

@@ -1,0 +1,9 @@
+For scalings see:
+pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/additional_content/save_all_scalings/scalings.txt (but note that it contains the variance, not the standard deviation) 
+
+Training epochs: 44
+Weights restored from epoch: 42
+Unbounded training loss: 20.3072
+Unbounded validation loss: 20.0700
+Bounded training loss: 20.0097
+Bounded validation loss: 19.7934

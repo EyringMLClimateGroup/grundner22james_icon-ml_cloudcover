@@ -1,0 +1,45 @@
+Verdict:
+========
+I found that the model architecture found for Q3 outperforms the best one found here!
+
+
+
+Best model found here:
+======================
+Best cross-validation loss after 6 epochs: 53.09
+Validation losses on respective folds: 58.35, 41.98, 58.94
+
+Best model: 
+-----------
+Dropout: 0.184124
+Epsilon: 0.1
+L1-reg: 0.000162
+L2-reg: 0.007437
+lr_init: 0.008726
+model depth: 3
+num_units: 256
+activation: lrelu, lrelu
+
+Here:
+-----
+def lrelu(x):
+    return nn.leaky_relu(x, alpha=0.01)
+
+Best learning rate scheduler: 
+-----------------------------
+def scheduler_stephan(epoch, lr):
+    if epoch > 0 and epoch%2==0:
+        return lr/20
+    else:
+        return lr
+
+callback_stephan = tf.keras.callbacks.LearningRateScheduler(scheduler_stephan, verbose=1)
+
+Other optimizers
+================
+SGD: Produces nans only
+LFBGS: Tough to implement in TF
+
+Normalization:
+==============
+Standardization should be good since this puts our input into [-15, 89]

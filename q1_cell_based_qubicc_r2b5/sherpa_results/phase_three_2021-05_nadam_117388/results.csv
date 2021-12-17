@@ -1,0 +1,2 @@
+Trial-ID,Status,Iteration,dropout,epsilon,l1_reg,l2_reg,lrinit,num_units,Objective,Val-loss First Fold,Val-loss Second Fold,Val-loss Third Fold
+1,COMPLETED,1,0.20987,0.1,0.008453,0.004271,0.008804,128,46.73751449584961,47.719566345214844,33.725799560546875,58.76717758178711

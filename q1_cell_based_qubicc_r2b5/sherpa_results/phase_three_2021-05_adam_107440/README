@@ -1,0 +1,173 @@
+Training progress:
+==================
+
+Epoch 1/6
+
+Epoch 00001: LearningRateScheduler reducing learning rate to 0.002044999971985817.
+656844/656844 - 2679s - loss: 54.5189 - val_loss: 70.5693
+Epoch 2/6
+
+Epoch 00002: LearningRateScheduler reducing learning rate to 0.002044999971985817.
+656844/656844 - 2699s - loss: 58.2853 - val_loss: 65.2205
+Epoch 3/6
+
+Epoch 00003: LearningRateScheduler reducing learning rate to 0.00010224999859929085.
+656844/656844 - 2676s - loss: 77.6727 - val_loss: 60.3631
+Epoch 4/6
+
+Epoch 00004: LearningRateScheduler reducing learning rate to 0.00010225000005448237.
+656844/656844 - 2684s - loss: 76.9333 - val_loss: 63.4343
+Epoch 5/6
+
+Epoch 00005: LearningRateScheduler reducing learning rate to 5.112500002724119e-06.
+656844/656844 - 2689s - loss: 189.9703 - val_loss: 99.3498
+Epoch 6/6
+
+Epoch 00006: LearningRateScheduler reducing learning rate to 5.112499820825178e-06.
+656844/656844 - 2705s - loss: 242.9655 - val_loss: 110.5735
+Epoch 1/6
+
+Epoch 00001: LearningRateScheduler reducing learning rate to 5.112499820825178e-06.
+656844/656844 - 2694s - loss: 206.6124 - val_loss: 79.6579
+Epoch 2/6
+
+Epoch 00002: LearningRateScheduler reducing learning rate to 5.112499820825178e-06.
+656844/656844 - 2691s - loss: 189.8115 - val_loss: 78.7869
+Epoch 3/6
+
+Epoch 00003: LearningRateScheduler reducing learning rate to 2.5562499104125893e-07.
+656844/656844 - 2695s - loss: 155.1299 - val_loss: 77.1656
+Epoch 4/6
+
+Epoch 00004: LearningRateScheduler reducing learning rate to 2.556249967256008e-07.
+656844/656844 - 2711s - loss: 154.2399 - val_loss: 75.8758
+Epoch 5/6
+
+Epoch 00005: LearningRateScheduler reducing learning rate to 1.278124983628004e-08.
+656844/656844 - 2721s - loss: 137.5731 - val_loss: 75.8871
+Epoch 6/6
+
+Epoch 00006: LearningRateScheduler reducing learning rate to 1.278124983628004e-08.
+656844/656844 - 2713s - loss: 137.4022 - val_loss: 76.0304
+Epoch 1/6
+
+Epoch 00001: LearningRateScheduler reducing learning rate to 1.278124983628004e-08.
+656844/656844 - 2704s - loss: 117.8076 - val_loss: 112.0218
+Epoch 2/6
+
+Epoch 00002: LearningRateScheduler reducing learning rate to 1.278124983628004e-08.
+656844/656844 - 2702s - loss: 114.3329 - val_loss: 113.9273
+Epoch 3/6
+
+Epoch 00003: LearningRateScheduler reducing learning rate to 6.39062491814002e-10.
+656844/656844 - 2702s - loss: 113.2349 - val_loss: 113.9384
+Epoch 4/6
+
+Epoch 00004: LearningRateScheduler reducing learning rate to 6.390624696095415e-10.
+656844/656844 - 2691s - loss: 113.2257 - val_loss: 113.9514
+Epoch 5/6
+
+Epoch 00005: LearningRateScheduler reducing learning rate to 3.195312348047708e-11.
+656844/656844 - 2701s - loss: 113.2234 - val_loss: 113.9514
+Epoch 6/6
+
+Epoch 00006: LearningRateScheduler reducing learning rate to 3.1953124174366465e-11.
+656844/656844 - 2693s - loss: 113.2202 - val_loss: 113.9515
+Successfully created the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/grid_cell_based_QUBICC_R02B05/sherpa_results/phase_three_2021-05_adam_107440
+Epoch 1/6
+
+Epoch 00001: LearningRateScheduler reducing learning rate to 0.0018503924945352562.
+656844/656844 - 2694s - loss: 49.8335 - val_loss: 59.0021
+Epoch 2/6
+
+Epoch 00002: LearningRateScheduler reducing learning rate to 0.0016743043146942589.
+656844/656844 - 2699s - loss: 55.1492 - val_loss: 66.1881
+Epoch 3/6
+
+Epoch 00003: LearningRateScheduler reducing learning rate to 0.0015149732404815901.
+656844/656844 - 2706s - loss: 61.1002 - val_loss: 57.9618
+Epoch 4/6
+
+Epoch 00004: LearningRateScheduler reducing learning rate to 0.0013708044706374335.
+656844/656844 - 2714s - loss: 64.8244 - val_loss: 65.9406
+Epoch 5/6
+
+Epoch 00005: LearningRateScheduler reducing learning rate to 0.001240355205105269.
+656844/656844 - 2720s - loss: 75.6378 - val_loss: 92.7121
+Epoch 6/6
+
+Epoch 00006: LearningRateScheduler reducing learning rate to 0.0011223197925234439.
+656844/656844 - 2696s - loss: 75.3201 - val_loss: 108.6394
+Epoch 1/6
+
+Epoch 00001: LearningRateScheduler reducing learning rate to 0.0010155169844555255.
+656844/656844 - 2697s - loss: 572.7902 - val_loss: 679.7767
+Epoch 2/6
+
+Epoch 00002: LearningRateScheduler reducing learning rate to 0.000918877716305353.
+656844/656844 - 2712s - loss: 580.2014 - val_loss: 680.5358
+Epoch 3/6
+
+Epoch 00003: LearningRateScheduler reducing learning rate to 0.0008314349423024015.
+656844/656844 - 2719s - loss: 582.1339 - val_loss: 681.3330
+Epoch 4/6
+
+Epoch 00004: LearningRateScheduler reducing learning rate to 0.0007523134704871473.
+656844/656844 - 2697s - loss: 584.2634 - val_loss: 682.0403
+Epoch 5/6
+
+Epoch 00005: LearningRateScheduler reducing learning rate to 0.0006807213777505216.
+656844/656844 - 2701s - loss: 586.6004 - val_loss: 682.8382
+Epoch 6/6
+
+Epoch 00006: LearningRateScheduler reducing learning rate to 0.0006159421622319385.
+656844/656844 - 2709s - loss: 589.2053 - val_loss: 683.4720
+Epoch 1/6
+
+Epoch 00001: LearningRateScheduler reducing learning rate to 0.0005573275277389577.
+656844/656844 - 2691s - loss: 472.6721 - val_loss: 787.2857
+Epoch 2/6
+
+Epoch 00002: LearningRateScheduler reducing learning rate to 0.0005042908001885841.
+656844/656844 - 2703s - loss: 476.9387 - val_loss: 786.8657
+Epoch 3/6
+
+Epoch 00003: LearningRateScheduler reducing learning rate to 0.0004563011867440795.
+656844/656844 - 2706s - loss: 480.0819 - val_loss: 786.3278
+Epoch 4/6
+
+Epoch 00004: LearningRateScheduler reducing learning rate to 0.00041287837729682766.
+656844/656844 - 2703s - loss: 483.5046 - val_loss: 785.6749
+Epoch 5/6
+
+Epoch 00005: LearningRateScheduler reducing learning rate to 0.0003735878043040694.
+656844/656844 - 2704s - loss: 486.4551 - val_loss: 784.8687
+Epoch 6/6
+
+Epoch 00006: LearningRateScheduler reducing learning rate to 0.00033803621863745536.
+656844/656844 - 2712s - loss: 489.5591 - val_loss: 784.0043
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/grid_cell_based_QUBICC_R02B05/sherpa_results/phase_three_2021-05_adam_107440 failed
+Epoch 1/6
+
+Epoch 00001: LearningRateScheduler reducing learning rate to 0.0018503924945352562.
+656844/656844 - 2701s - loss: 51.0244 - val_loss: 57.6353
+Epoch 2/6
+
+Epoch 00002: LearningRateScheduler reducing learning rate to 0.0016743043146942589.
+656844/656844 - 2710s - loss: 53.0282 - val_loss: 61.0424
+Epoch 3/6
+
+Epoch 00003: LearningRateScheduler reducing learning rate to 0.0015149732404815901.
+656844/656844 - 2710s - loss: 60.8158 - val_loss: 58.8638
+Epoch 4/6
+
+Epoch 00004: LearningRateScheduler reducing learning rate to 0.0013708044706374335.
+656844/656844 - 2707s - loss: 65.0499 - val_loss: 60.6070
+Epoch 5/6
+
+Epoch 00005: LearningRateScheduler reducing learning rate to 0.001240355205105269.
+656844/656844 - 2724s - loss: 74.8905 - val_loss: 77.3535
+Epoch 6/6
+
+Epoch 00006: LearningRateScheduler reducing learning rate to 0.0011223197925234439.
+656844/656844 - 2704s - loss: 77.3849 - val_loss: 69.6080

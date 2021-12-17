@@ -1,0 +1,2 @@
+Trial-ID,Status,Iteration,activation_1,activation_2,activation_3,dropout,epsilon,l1_reg,l2_reg,lrinit,model_depth,num_units,Objective
+1,COMPLETED,1,relu,elu,,0.2675466374187108,1e-08,0.0005876172844377365,0.005107489387129319,0.0062835882939558454,3,32,88.89311218261719

@@ -1,0 +1,14 @@
+Files:
+------
+- *_indices_*: Indices of the NARVAL samples we calculated the SHAP values for
+- *_samples_*: The NARVAL samples we calculated the SHAP values for
+- *_shap_values_*: The actual SHAP values
+
+The SHAP values were computed in:
+---------------------------------
+- /q2_column_based_qubicc_r2b5/source_code/compute_shap_values_on_narval_r2b5_with_constructed_base.ipynb
+- /q2_column_based_qubicc_r2b5/source_code/average_absolute_shap_values_on_narval_r2b5.ipynb
+- /n2_column_based_narval_r2b4/source_code/compute_shap_values_on_narval_r2b5.ipynb
+- /n2_column_based_narval_r2b4/source_code/average_absolute_shap_values_on_narval_r2b5.ipynb
+
+The constructed base value files are probably the most important ones, as they allow for the best intercomparability between the R2B5 QUBICC and the R2B4 NARVAL model! There, B_f = B_g on layer 32. There also the amount of train_samples in the background dataset varies. The amount of samples I need to achieve B_f = B_g depends on the random seed I choose.

@@ -1,0 +1,36 @@
+How to use the model:
+model = tensorflow.keras.models.load_model(filename+'.h5')
+model.predict(scaled input data)
+
+Input/Output
+------------
+Input and output variables:
+Index(['qv', 'qi', 'temp', 'pres', 'zg', 'fr_land', 'clc'], dtype='object')
+The (order of) input variables:
+['qv' 'qi' 'temp' 'pres' 'zg' 'fr_land']
+
+Scaling
+-------
+Standard Scaler mean values:
+[5.37588425e-03 4.64950307e-07 2.59637648e+02 5.52343099e+04
+ 6.79192465e+03 2.58183961e-01]
+Standard Scaler standard deviation:
+[6.01996561e-03 3.95040241e-06 3.55910392e+01 3.26622989e+04
+ 6.20628503e+03 4.28359352e-01]
+=> Apply this standard scaling to (only) the input data before processing.
+
+Preprocessed data
+-----------------
+/pf/b/b309170/my_work/icon-ml_data/cloud_cover_parameterization/grid_cell_based_v3/based_on_var_interpolated_data/cloud_cover_input_train_4.npy
+/pf/b/b309170/my_work/icon-ml_data/cloud_cover_parameterization/grid_cell_based_v3/based_on_var_interpolated_data/cloud_cover_input_valid_4.npy
+/pf/b/b309170/my_work/icon-ml_data/cloud_cover_parameterization/grid_cell_based_v3/based_on_var_interpolated_data/cloud_cover_output_train_4.npy
+/pf/b/b309170/my_work/icon-ml_data/cloud_cover_parameterization/grid_cell_based_v3/based_on_var_interpolated_data/cloud_cover_output_valid_4.npy
+/pf/b/b309170/my_work/icon-ml_data/cloud_cover_parameterization/grid_cell_based_v3/based_on_var_interpolated_data/cloud_cover_input_test_4.npy
+/pf/b/b309170/my_work/icon-ml_data/cloud_cover_parameterization/grid_cell_based_v3/based_on_var_interpolated_data/cloud_cover_output_test_4.npy
+
+Model
+-----
+Training loss: 15.1556
+Validation loss: 15.1310
+Test loss: 15.2311
+Training epochs: 53

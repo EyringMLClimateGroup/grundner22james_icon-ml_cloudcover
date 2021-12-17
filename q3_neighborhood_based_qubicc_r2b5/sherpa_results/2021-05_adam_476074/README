@@ -1,0 +1,3 @@
+Note that even though the validation loss is lower for the ADAM model, we prefer the ADADELTA model because:
+- The last activation function is linear, so the Adadelta model performs well without restricting the output!
+- The number of model parameters/units is a lot less

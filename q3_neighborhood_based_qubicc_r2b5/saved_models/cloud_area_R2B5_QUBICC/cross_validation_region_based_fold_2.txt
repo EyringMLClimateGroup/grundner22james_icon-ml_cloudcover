@@ -1,0 +1,49 @@
+How to use the model:
+model = tensorflow.keras.models.load_model(filename+'.h5')
+model.predict(scaled input data)
+
+Input/Output
+------------
+Input and output variables:
+['qv' 'qc' 'qi' 'temp' 'pres' 'u' 'v' 'zg' 'coriolis' 'qv_below'
+ 'qv_above' 'qc_below' 'qc_above' 'qi_below' 'qi_above' 'temp_below'
+ 'temp_above' 'pres_below' 'pres_above' 'u_below' 'u_above' 'v_below'
+ 'v_above' 'zg_below' 'zg_above' 'temp_sfc' 'cl_area']
+The (order of) input variables:
+['qv' 'qc' 'qi' 'temp' 'pres' 'u' 'v' 'zg' 'coriolis' 'qv_below'
+ 'qv_above' 'qc_below' 'qc_above' 'qi_below' 'qi_above' 'temp_below'
+ 'temp_above' 'pres_below' 'pres_above' 'u_below' 'u_above' 'v_below'
+ 'v_above' 'zg_below' 'zg_above' 'temp_sfc']
+
+Scaling
+-------
+Standard Scaler mean values:
+[ 3.43643510e-03  7.97847972e-06  2.80708825e-06  2.53130001e+02
+  5.33315000e+04  5.09058540e+00  2.30760203e-02  6.87489337e+03
+ -2.77601503e-06  3.83642384e-03  3.03347535e-03  8.31951902e-06
+  7.21681183e-06  2.80120257e-06  2.79915461e-06  2.56170507e+02
+  2.50208755e+02  5.68812221e+04  4.97294327e+04  4.87458814e+00
+  5.25327162e+00  2.90800554e-02  1.48735740e-02  6.13167834e+03
+  7.68106558e+03  2.87197769e+02]
+Standard Scaler standard deviation:
+[4.65736199e-03 4.17061288e-05 1.65364038e-05 3.10461202e+01
+ 3.18472768e+04 9.34327116e+00 5.05172268e+00 6.05695602e+03
+ 8.37125243e-05 4.92796877e-03 4.34255317e-03 4.60966545e-05
+ 3.53487329e-05 1.65263881e-05 1.65363123e-05 3.04856804e+01
+ 3.12307015e+01 3.15942771e+04 3.17890277e+04 9.25984539e+00
+ 9.45415731e+00 5.03779789e+00 5.05415357e+00 5.60701077e+03
+ 6.51747456e+03 1.52303492e+01]
+=> Apply this standard scaling to (only) the input data before processing.
+
+Preprocessed data
+-----------------
+/pf/b/b309170/my_work/icon-ml_data/cloud_cover_parameterization/region_based_one_nn_R02B05/based_on_var_interpolated_data/cloud_cover_input_qubicc.npy
+
+Model
+-----
+Training epochs: 35
+Weights restored from epoch: 11
+Unbounded training loss: 54.4875
+Unbounded validation loss: 53.1220
+Bounded training loss: 47.7107
+Bounded validation loss: 46.2844

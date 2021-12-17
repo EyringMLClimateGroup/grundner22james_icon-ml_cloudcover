@@ -1,0 +1,4 @@
+Trial-ID,Status,Iteration,activation_1,activation_2,activation_3,activation_4,activation_last,bn_1,bn_2,bn_3,bn_4,dropout,epsilon,l1_reg,l2_reg,lrinit,model_depth,num_units,optimizer,Objective
+1,COMPLETED,2,tanh,<function leaky_relu at 0x2b4eed32af80>,tanh,,linear,0,0,1,0,0.0,0.1,0.004749,0.008732,0.000433,4,64,adadelta,26.011905670166016
+2,COMPLETED,2,<function lrelu at 0x2b4ef489c200>,elu,,,<function my_act_fct at 0x2b4eb88947a0>,0,1,0,0,0.2567766529513422,1.0,0.00441107582988642,0.00976385046167774,0.0029667743052615584,3,256,nadam,30.517663955688477
+3,COMPLETED,2,elu,elu,elu,,linear,0,1,1,1,0.4076495201140031,1e-08,0.0006085353330911924,0.0020118243742032484,0.006267802439137977,4,16,SGD,53.366790771484375

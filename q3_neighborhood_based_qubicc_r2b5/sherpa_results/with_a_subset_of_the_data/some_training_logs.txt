@@ -1,0 +1,393 @@
+{'num_units': 64, 'model_depth': 4, 'activation_1': 'tanh', 'activation_2': <function leaky_relu at 0x2b207bb24680>, 'activation_3': 'tanh', 'activation_4': 'relu', 'activation_last': 'linear', 'lrinit': 0.000433, 'epsilon': 0.1, 'dropout': 0, 'l1_reg': 0.004749, 'l2_reg': 0.008732, 'bn_1': 0, 'bn_2': 0, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 37s - loss: 62.9482 - val_loss: 44.2211
+Epoch 2/3
+6511/6511 - 35s - loss: 42.3972 - val_loss: 43.9721
+Epoch 3/3
+6511/6511 - 35s - loss: 39.1056 - val_loss: 40.3515
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 256, 'model_depth': 2, 'activation_1': <function leaky_relu at 0x2b207bb24680>, 'activation_2': 'relu', 'activation_3': <function lrelu at 0x2b241fd4cef0>, 'activation_4': <function leaky_relu at 0x2b207bb24680>, 'activation_last': 'linear', 'lrinit': 0.11089141882413636, 'epsilon': 1e-07, 'dropout': 0.1036675286443538, 'l1_reg': 0.007591899504404582, 'l2_reg': 0.0034843593942688314, 'bn_1': 1, 'bn_2': 1, 'bn_3': 1, 'bn_4': 1, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 30s - loss: 119.8751 - val_loss: 77.5806
+Epoch 2/3
+6511/6511 - 29s - loss: 72.8748 - val_loss: 63.6101
+Epoch 3/3
+6511/6511 - 29s - loss: 61.8585 - val_loss: 55.8715
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 32, 'model_depth': 4, 'activation_1': 'tanh', 'activation_2': 'elu', 'activation_3': <function leaky_relu at 0x2b207bb24680>, 'activation_4': 'relu', 'activation_last': 'linear', 'lrinit': 0.00012548171313529725, 'epsilon': 1e-07, 'dropout': 0.01669373921424505, 'l1_reg': 0.001627757201800445, 'l2_reg': 0.000220984167860524, 'bn_1': 1, 'bn_2': 0, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 44s - loss: 643.9081 - val_loss: 638.7612
+Epoch 2/3
+6511/6511 - 42s - loss: 633.2831 - val_loss: 627.5394
+Epoch 3/3
+6511/6511 - 42s - loss: 621.5905 - val_loss: 615.3180
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 256, 'model_depth': 2, 'activation_1': 'tanh', 'activation_2': <function lrelu at 0x2b241fd4cef0>, 'activation_3': 'relu', 'activation_4': 'elu', 'activation_last': 'linear', 'lrinit': 0.00047343244526487107, 'epsilon': 1e-08, 'dropout': 0.1357443605402615, 'l1_reg': 0.005898945644056455, 'l2_reg': 0.008904211387825526, 'bn_1': 1, 'bn_2': 0, 'bn_3': 0, 'bn_4': 1, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 30s - loss: 657.5303 - val_loss: 641.8354
+Epoch 2/3
+6511/6511 - 29s - loss: 625.0545 - val_loss: 607.9131
+Epoch 3/3
+6511/6511 - 29s - loss: 590.6757 - val_loss: 572.8900
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 64, 'model_depth': 2, 'activation_1': <function lrelu at 0x2b241fd4cef0>, 'activation_2': 'tanh', 'activation_3': 'elu', 'activation_4': 'tanh', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.0029377826243519737, 'epsilon': 0.1, 'dropout': 0.25024677582069615, 'l1_reg': 0.0021904135112690982, 'l2_reg': 0.005689752293965325, 'bn_1': 0, 'bn_2': 1, 'bn_3': 0, 'bn_4': 1, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 23s - loss: 77.0035 - val_loss: 50.8746
+Epoch 2/3
+6511/6511 - 23s - loss: 48.7742 - val_loss: 47.2110
+Epoch 3/3
+6511/6511 - 23s - loss: 46.8133 - val_loss: 45.7476
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 32, 'model_depth': 2, 'activation_1': 'relu', 'activation_2': 'relu', 'activation_3': 'tanh', 'activation_4': 'tanh', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.7325996140763084, 'epsilon': 1e-08, 'dropout': 0.2668448397919822, 'l1_reg': 0.009377111252075085, 'l2_reg': 0.006410747821085118, 'bn_1': 0, 'bn_2': 0, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 24s - loss: 143.1058 - val_loss: 85.5666
+Epoch 2/3
+6511/6511 - 23s - loss: 74.1137 - val_loss: 66.7522
+Epoch 3/3
+6511/6511 - 22s - loss: 63.1715 - val_loss: 60.2827
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 128, 'model_depth': 3, 'activation_1': <function leaky_relu at 0x2b207bb24680>, 'activation_2': <function lrelu at 0x2b241fd4cef0>, 'activation_3': 'relu', 'activation_4': <function lrelu at 0x2b241fd4cef0>, 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.2895643476694562, 'epsilon': 1, 'dropout': 0.3911330222852869, 'l1_reg': 0.007047958544559486, 'l2_reg': 0.005958026277678432, 'bn_1': 1, 'bn_2': 0, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 35s - loss: 450.3050 - val_loss: 192.2475
+Epoch 2/3
+6511/6511 - 34s - loss: 199.5584 - val_loss: 189.0572
+Epoch 3/3
+6511/6511 - 34s - loss: 192.8538 - val_loss: 162.8020
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 256, 'model_depth': 3, 'activation_1': 'elu', 'activation_2': 'relu', 'activation_3': 'elu', 'activation_4': 'elu', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.00017525390238194656, 'epsilon': 0.1, 'dropout': 0.12279419074456838, 'l1_reg': 0.004910504608854535, 'l2_reg': 0.006306654997924543, 'bn_1': 0, 'bn_2': 1, 'bn_3': 1, 'bn_4': 1, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 35s - loss: 81.7693 - val_loss: 58.1316
+Epoch 2/3
+6511/6511 - 34s - loss: 56.3077 - val_loss: 52.8030
+Epoch 3/3
+6511/6511 - 34s - loss: 51.8660 - val_loss: 49.9551
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 16, 'model_depth': 2, 'activation_1': <function leaky_relu at 0x2b207bb24680>, 'activation_2': 'relu', 'activation_3': 'tanh', 'activation_4': 'tanh', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.00011759283833437796, 'epsilon': 1e-08, 'dropout': 0.41940299346153626, 'l1_reg': 0.0011075544590852348, 'l2_reg': 0.0044679397845330815, 'bn_1': 1, 'bn_2': 0, 'bn_3': 0, 'bn_4': 1, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 31s - loss: 638.4178 - val_loss: 637.8138
+Epoch 2/3
+6511/6511 - 29s - loss: 637.9846 - val_loss: 637.3792
+Epoch 3/3
+6511/6511 - 29s - loss: 637.5176 - val_loss: 636.8856
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 64, 'model_depth': 4, 'activation_1': <function leaky_relu at 0x2b207bb24680>, 'activation_2': 'elu', 'activation_3': <function leaky_relu at 0x2b207bb24680>, 'activation_4': 'relu', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.00031311552567780384, 'epsilon': 1e-07, 'dropout': 0.3915969989308294, 'l1_reg': 0.006052196852427395, 'l2_reg': 0.004871172386105431, 'bn_1': 0, 'bn_2': 1, 'bn_3': 0, 'bn_4': 1, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 38s - loss: 644.7099 - val_loss: 642.3838
+Epoch 2/3
+6511/6511 - 37s - loss: 628.3676 - val_loss: 617.4147
+Epoch 3/3
+6511/6511 - 37s - loss: 600.9388 - val_loss: 584.6848
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 512, 'model_depth': 4, 'activation_1': 'relu', 'activation_2': <function lrelu at 0x2b241fd4cef0>, 'activation_3': 'relu', 'activation_4': 'relu', 'activation_last': 'linear', 'lrinit': 0.10502864643419157, 'epsilon': 1, 'dropout': 0.08080361883948806, 'l1_reg': 0.007087702029546263, 'l2_reg': 0.004333885424343553, 'bn_1': 0, 'bn_2': 1, 'bn_3': 0, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 38s - loss: 3013.7490 - val_loss: 526.8754
+Epoch 2/3
+6511/6511 - 36s - loss: 527.0399 - val_loss: 526.7794
+Epoch 3/3
+6511/6511 - 36s - loss: 527.0399 - val_loss: 526.8472
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 128, 'model_depth': 2, 'activation_1': 'tanh', 'activation_2': <function lrelu at 0x2b241fd4cef0>, 'activation_3': 'tanh', 'activation_4': <function lrelu at 0x2b241fd4cef0>, 'activation_last': 'linear', 'lrinit': 0.1663995525549403, 'epsilon': 1, 'dropout': 0.4205712098570214, 'l1_reg': 0.005220617828563297, 'l2_reg': 0.0033367791684483106, 'bn_1': 0, 'bn_2': 0, 'bn_3': 0, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 23s - loss: 586.1240 - val_loss: 229.3509
+Epoch 2/3
+6511/6511 - 22s - loss: 600.8895 - val_loss: 292.3697
+Epoch 3/3
+6511/6511 - 22s - loss: 539.3132 - val_loss: 308.7654
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 256, 'model_depth': 4, 'activation_1': <function leaky_relu at 0x2b207bb24680>, 'activation_2': 'elu', 'activation_3': 'relu', 'activation_4': 'relu', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.000332, 'epsilon': 1.0, 'dropout': 0, 'l1_reg': 0.002476, 'l2_reg': 0.001802, 'bn_1': 1, 'bn_2': 1, 'bn_3': 0, 'bn_4': 0, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 45s - loss: 74.8470 - val_loss: 51.5194
+Epoch 2/3
+6511/6511 - 43s - loss: 49.2095 - val_loss: 47.0190
+Epoch 3/3
+6511/6511 - 43s - loss: 45.0697 - val_loss: 42.5214
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 64, 'model_depth': 4, 'activation_1': <function leaky_relu at 0x2b207bb24680>, 'activation_2': 'elu', 'activation_3': 'tanh', 'activation_4': 'relu', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.04213240791831527, 'epsilon': 1, 'dropout': 0.06447685918697071, 'l1_reg': 0.009916896231845744, 'l2_reg': 0.003520328788844701, 'bn_1': 1, 'bn_2': 1, 'bn_3': 1, 'bn_4': 1, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 51s - loss: 83.2870 - val_loss: 93.9680
+Epoch 2/3
+6511/6511 - 50s - loss: 70.4662 - val_loss: 76.8556
+Epoch 3/3
+6511/6511 - 49s - loss: 68.7497 - val_loss: 102.0144
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 64, 'model_depth': 2, 'activation_1': <function lrelu at 0x2b23a01689e0>, 'activation_2': <function lrelu at 0x2b23a01689e0>, 'activation_3': 'tanh', 'activation_4': <function lrelu at 0x2b23a01689e0>, 'activation_last': 'linear', 'lrinit': 0.01690360114419606, 'epsilon': 0.1, 'dropout': 0.4965923021044147, 'l1_reg': 0.005609671706041928, 'l2_reg': 0.00804711644936397, 'bn_1': 0, 'bn_2': 0, 'bn_3': 0, 'bn_4': 1, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 22s - loss: 96.3321 - val_loss: 68.1223
+Epoch 2/3
+6511/6511 - 21s - loss: 75.1985 - val_loss: 68.4086
+Epoch 3/3
+6511/6511 - 21s - loss: 70.0749 - val_loss: 64.2696
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 64, 'model_depth': 3, 'activation_1': <function lrelu at 0x2b23a01689e0>, 'activation_2': 'relu', 'activation_3': 'tanh', 'activation_4': 'relu', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.49949431953163065, 'epsilon': 1e-07, 'dropout': 0.10971172863074236, 'l1_reg': 0.005425301235588747, 'l2_reg': 0.009909371205963751, 'bn_1': 0, 'bn_2': 0, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 27s - loss: 59.6415 - val_loss: 45.2667
+Epoch 2/3
+6511/6511 - 26s - loss: 45.5637 - val_loss: 42.1993
+Epoch 3/3
+6511/6511 - 26s - loss: 43.1610 - val_loss: 39.7658
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 64, 'model_depth': 3, 'activation_1': 'relu', 'activation_2': 'elu', 'activation_3': 'tanh', 'activation_4': 'elu', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.0003593990583269281, 'epsilon': 1, 'dropout': 0.07612671608516364, 'l1_reg': 0.009713026535348458, 'l2_reg': 0.009732848208326336, 'bn_1': 1, 'bn_2': 0, 'bn_3': 0, 'bn_4': 1, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 34s - loss: 62.3744 - val_loss: 43.8121
+Epoch 2/3
+6511/6511 - 33s - loss: 43.0743 - val_loss: 44.2494
+Epoch 3/3
+6511/6511 - 33s - loss: 40.2676 - val_loss: 37.8063
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 512, 'model_depth': 3, 'activation_1': <function leaky_relu at 0x2b207bb24680>, 'activation_2': <function leaky_relu at 0x2b207bb24680>, 'activation_3': 'elu', 'activation_4': <function lrelu at 0x2b23a01689e0>, 'activation_last': 'linear', 'lrinit': 0.020004207607980114, 'epsilon': 1e-07, 'dropout': 0.08251765892205315, 'l1_reg': 0.0029783014562761003, 'l2_reg': 0.0016231401090467024, 'bn_1': 0, 'bn_2': 0, 'bn_3': 0, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 27s - loss: 191.5779 - val_loss: 117.0051
+Epoch 2/3
+6511/6511 - 26s - loss: 103.3217 - val_loss: 90.5916
+Epoch 3/3
+6511/6511 - 26s - loss: 85.6635 - val_loss: 78.7133
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 64, 'model_depth': 3, 'activation_1': 'elu', 'activation_2': 'relu', 'activation_3': 'relu', 'activation_4': <function leaky_relu at 0x2b207bb24680>, 'activation_last': 'linear', 'lrinit': 0.00018966392817135362, 'epsilon': 0.1, 'dropout': 0.3202094549262845, 'l1_reg': 0.009807730498453822, 'l2_reg': 0.0012372772799889354, 'bn_1': 1, 'bn_2': 1, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 41s - loss: 101.7926 - val_loss: 51.6432
+Epoch 2/3
+6511/6511 - 39s - loss: 60.1030 - val_loss: 45.1328
+Epoch 3/3
+6511/6511 - 39s - loss: 55.5015 - val_loss: 42.4560
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 128, 'model_depth': 2, 'activation_1': <function leaky_relu at 0x2b207bb24680>, 'activation_2': 'relu', 'activation_3': <function leaky_relu at 0x2b207bb24680>, 'activation_4': 'relu', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.00010631324435169408, 'epsilon': 1, 'dropout': 0.446914757268778, 'l1_reg': 0.009056438796729986, 'l2_reg': 0.007274515277392706, 'bn_1': 0, 'bn_2': 0, 'bn_3': 0, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 24s - loss: 211.2279 - val_loss: 162.7553
+Epoch 2/3
+6511/6511 - 23s - loss: 154.3019 - val_loss: 146.5289
+Epoch 3/3
+6511/6511 - 23s - loss: 138.2940 - val_loss: 130.5124
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 512, 'model_depth': 2, 'activation_1': 'relu', 'activation_2': 'tanh', 'activation_3': 'elu', 'activation_4': 'elu', 'activation_last': 'linear', 'lrinit': 0.00365210075728928, 'epsilon': 1e-07, 'dropout': 0.29110918135480646, 'l1_reg': 0.0010521545662404298, 'l2_reg': 0.0010591389505734173, 'bn_1': 1, 'bn_2': 0, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 30s - loss: 337.3056 - val_loss: 119.8052
+Epoch 2/3
+6511/6511 - 28s - loss: 98.9915 - val_loss: 89.5802
+Epoch 3/3
+6511/6511 - 29s - loss: 84.5818 - val_loss: 79.8161
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 256, 'model_depth': 2, 'activation_1': 'tanh', 'activation_2': 'elu', 'activation_3': 'tanh', 'activation_4': 'elu', 'activation_last': 'linear', 'lrinit': 0.7783290163246132, 'epsilon': 1e-07, 'dropout': 0.3658540984563832, 'l1_reg': 0.006418891949870295, 'l2_reg': 0.004942503720026127, 'bn_1': 0, 'bn_2': 0, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 23s - loss: 80.0972 - val_loss: 59.3406
+Epoch 2/3
+6511/6511 - 22s - loss: 56.8104 - val_loss: 55.0850
+Epoch 3/3
+6511/6511 - 22s - loss: 54.0846 - val_loss: 52.5907
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 64, 'model_depth': 2, 'activation_1': <function leaky_relu at 0x2b207bb24680>, 'activation_2': 'elu', 'activation_3': 'relu', 'activation_4': 'relu', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.4859749824967582, 'epsilon': 1e-07, 'dropout': 0.4345781715201965, 'l1_reg': 0.009033509930428276, 'l2_reg': 0.004719283103750701, 'bn_1': 1, 'bn_2': 0, 'bn_3': 1, 'bn_4': 1, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 31s - loss: 82.3769 - val_loss: 54.6046
+Epoch 2/3
+6511/6511 - 30s - loss: 52.7454 - val_loss: 47.6092
+Epoch 3/3
+6511/6511 - 30s - loss: 47.5272 - val_loss: 44.8090
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 64, 'model_depth': 3, 'activation_1': <function leaky_relu at 0x2b207bb24680>, 'activation_2': 'tanh', 'activation_3': 'elu', 'activation_4': 'tanh', 'activation_last': 'linear', 'lrinit': 0.001143056887879478, 'epsilon': 0.1, 'dropout': 0.4520071728640574, 'l1_reg': 0.006220522129763966, 'l2_reg': 0.006193640946689176, 'bn_1': 1, 'bn_2': 1, 'bn_3': 0, 'bn_4': 1, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 40s - loss: 80.3948 - val_loss: 51.5184
+Epoch 2/3
+6511/6511 - 39s - loss: 62.0246 - val_loss: 53.0536
+Epoch 3/3
+6511/6511 - 38s - loss: 59.0170 - val_loss: 48.0149
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 256, 'model_depth': 2, 'activation_1': 'relu', 'activation_2': 'elu', 'activation_3': 'relu', 'activation_4': <function leaky_relu at 0x2b207bb24680>, 'activation_last': 'linear', 'lrinit': 0.8636316518402103, 'epsilon': 1e-08, 'dropout': 0.07186229325856552, 'l1_reg': 0.005819945220001209, 'l2_reg': 0.0011092193037161291, 'bn_1': 1, 'bn_2': 0, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 31s - loss: 66.3294 - val_loss: 47.0792
+Epoch 2/3
+6511/6511 - 29s - loss: 42.4122 - val_loss: 42.6846
+Epoch 3/3
+6511/6511 - 30s - loss: 38.8834 - val_loss: 37.7445
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 64, 'model_depth': 2, 'activation_1': 'relu', 'activation_2': 'tanh', 'activation_3': 'relu', 'activation_4': <function leaky_relu at 0x2b207bb24680>, 'activation_last': 'linear', 'lrinit': 0.00036877828668031035, 'epsilon': 0.1, 'dropout': 0.0692002784782027, 'l1_reg': 0.004009638235024533, 'l2_reg': 0.00671083054628433, 'bn_1': 0, 'bn_2': 1, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 22s - loss: 189.5838 - val_loss: 94.4441
+Epoch 2/3
+6511/6511 - 21s - loss: 82.0599 - val_loss: 73.6858
+Epoch 3/3
+6511/6511 - 21s - loss: 69.1837 - val_loss: 65.6760
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 128, 'model_depth': 3, 'activation_1': 'relu', 'activation_2': 'tanh', 'activation_3': <function lrelu at 0x2b23a01689e0>, 'activation_4': 'elu', 'activation_last': 'linear', 'lrinit': 0.34483525011604066, 'epsilon': 0.1, 'dropout': 0.2856869633860703, 'l1_reg': 0.007923409148387673, 'l2_reg': 0.003620774583609315, 'bn_1': 0, 'bn_2': 1, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 34s - loss: 35378860032.0000 - val_loss: 12411589.0000
+Epoch 2/3
+6511/6511 - 33s - loss: 236997855674368.0000 - val_loss: 578695790592.0000
+Epoch 3/3
+6511/6511 - 33s - loss: 620534562816.0000 - val_loss: 640979894272.0000
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 16, 'model_depth': 4, 'activation_1': <function leaky_relu at 0x2b207bb24680>, 'activation_2': <function leaky_relu at 0x2b207bb24680>, 'activation_3': <function leaky_relu at 0x2b207bb24680>, 'activation_4': 'elu', 'activation_last': 'linear', 'lrinit': 0.020062276866816168, 'epsilon': 1e-08, 'dropout': 0.11469305384660111, 'l1_reg': 0.007024986547383164, 'l2_reg': 0.00471059622530423, 'bn_1': 0, 'bn_2': 1, 'bn_3': 0, 'bn_4': 1, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 38s - loss: 545.1249 - val_loss: 318.3501
+Epoch 2/3
+6511/6511 - 36s - loss: 237.3613 - val_loss: 188.9647
+Epoch 3/3
+6511/6511 - 36s - loss: 190.9070 - val_loss: 157.0291
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 64, 'model_depth': 4, 'activation_1': 'relu', 'activation_2': 'tanh', 'activation_3': 'elu', 'activation_4': 'relu', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.0009874173122323684, 'epsilon': 1e-07, 'dropout': 0.4604590798515253, 'l1_reg': 0.008122979218252642, 'l2_reg': 0.00457373309867671, 'bn_1': 1, 'bn_2': 1, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 52s - loss: 629.3734 - val_loss: 593.0714
+Epoch 2/3
+6511/6511 - 50s - loss: 545.0687 - val_loss: 469.9206
+Epoch 3/3
+6511/6511 - 50s - loss: 396.7199 - val_loss: 313.9321
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 128, 'model_depth': 2, 'activation_1': <function lrelu at 0x2b23a01689e0>, 'activation_2': <function leaky_relu at 0x2b207bb24680>, 'activation_3': 'relu', 'activation_4': 'tanh', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.06082014562114389, 'epsilon': 0.1, 'dropout': 0.2753032515766893, 'l1_reg': 0.004880752302683178, 'l2_reg': 0.00224685880139067, 'bn_1': 1, 'bn_2': 0, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adadelta'}
+Epoch 1/3
+6511/6511 - 31s - loss: 63.2107 - val_loss: 56.3597
+Epoch 2/3
+6511/6511 - 30s - loss: 56.0655 - val_loss: 63.3551
+Epoch 3/3
+6511/6511 - 30s - loss: 55.1755 - val_loss: 66.3322
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+
+{'num_units': 256, 'model_depth': 4, 'activation_1': <function leaky_relu at 0x2b207bb24680>, 'activation_2': 'elu', 'activation_3': 'relu', 'activation_4': 'relu', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.000332, 'epsilon': 1.0, 'dropout': 0, 'l1_reg': 0.002476, 'l2_reg': 0.001802, 'bn_1': 1, 'bn_2': 1, 'bn_3': 0, 'bn_4': 0, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 45s - loss: 77.9336 - val_loss: 52.8224
+Epoch 2/3
+6511/6511 - 43s - loss: 49.0512 - val_loss: 47.4259
+Epoch 3/3
+6511/6511 - 43s - loss: 44.8293 - val_loss: 42.4268
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 128, 'model_depth': 3, 'activation_1': <function leaky_relu at 0x2b207bb24680>, 'activation_2': <function lrelu at 0x2b23a085e8c0>, 'activation_3': 'tanh', 'activation_4': 'elu', 'activation_last': 'linear', 'lrinit': 0.0004637860043476908, 'epsilon': 1, 'dropout': 0.0644637011414117, 'l1_reg': 0.0032820091084566506, 'l2_reg': 0.00038445102339478287, 'bn_1': 1, 'bn_2': 0, 'bn_3': 1, 'bn_4': 1, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 34s - loss: 94.7735 - val_loss: 45.3970
+Epoch 2/3
+6511/6511 - 32s - loss: 44.6629 - val_loss: 39.3999
+Epoch 3/3
+6511/6511 - 33s - loss: 40.4465 - val_loss: 36.6734
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 32, 'model_depth': 2, 'activation_1': <function leaky_relu at 0x2b207bb24680>, 'activation_2': <function lrelu at 0x2b23a085e8c0>, 'activation_3': 'tanh', 'activation_4': 'relu', 'activation_last': 'linear', 'lrinit': 0.011702162077952752, 'epsilon': 1e-07, 'dropout': 0.3402059580931952, 'l1_reg': 0.008553806543183056, 'l2_reg': 0.009386843141026547, 'bn_1': 0, 'bn_2': 0, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 22s - loss: 78.8600 - val_loss: 62.0649
+Epoch 2/3
+6511/6511 - 21s - loss: 60.4259 - val_loss: 64.5088
+Epoch 3/3
+6511/6511 - 21s - loss: 59.0989 - val_loss: 58.1271
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 32, 'model_depth': 4, 'activation_1': 'elu', 'activation_2': 'tanh', 'activation_3': 'elu', 'activation_4': <function lrelu at 0x2b23a085e8c0>, 'activation_last': 'linear', 'lrinit': 0.0005528621129108506, 'epsilon': 1e-08, 'dropout': 0.329901863488374, 'l1_reg': 0.001132989954551784, 'l2_reg': 0.006044855082962017, 'bn_1': 1, 'bn_2': 1, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 49s - loss: 92.1820 - val_loss: 40.7878
+Epoch 2/3
+6511/6511 - 48s - loss: 54.4647 - val_loss: 37.6367
+Epoch 3/3
+6511/6511 - 47s - loss: 51.0534 - val_loss: 35.3629
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 128, 'model_depth': 3, 'activation_1': 'tanh', 'activation_2': <function leaky_relu at 0x2b207bb24680>, 'activation_3': <function lrelu at 0x2b23a085e8c0>, 'activation_4': 'tanh', 'activation_last': 'linear', 'lrinit': 0.004405996856966791, 'epsilon': 0.1, 'dropout': 0.2111311182459331, 'l1_reg': 0.0065296087271302095, 'l2_reg': 0.0028014261815726372, 'bn_1': 1, 'bn_2': 0, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 34s - loss: 50.5108 - val_loss: 37.9847
+Epoch 2/3
+6511/6511 - 32s - loss: 39.7529 - val_loss: 37.8927
+Epoch 3/3
+6511/6511 - 33s - loss: 38.1386 - val_loss: 35.2651
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 128, 'model_depth': 3, 'activation_1': 'tanh', 'activation_2': 'tanh', 'activation_3': 'relu', 'activation_4': <function lrelu at 0x2b23a085e8c0>, 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.02670444268771324, 'epsilon': 1e-07, 'dropout': 0.06688609953676494, 'l1_reg': 0.009048809602212871, 'l2_reg': 0.00492157067030703, 'bn_1': 0, 'bn_2': 1, 'bn_3': 1, 'bn_4': 1, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 35s - loss: 54.0638 - val_loss: 47.2606
+Epoch 2/3
+6511/6511 - 33s - loss: 49.2652 - val_loss: 47.6312
+Epoch 3/3
+6511/6511 - 33s - loss: 48.5406 - val_loss: 48.6920
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 256, 'model_depth': 2, 'activation_1': 'relu', 'activation_2': 'relu', 'activation_3': <function lrelu at 0x2b23a085e8c0>, 'activation_4': 'tanh', 'activation_last': 'linear', 'lrinit': 0.0012622880803798446, 'epsilon': 1e-08, 'dropout': 0.035985361883552225, 'l1_reg': 0.0023229739148709393, 'l2_reg': 0.006251466616640948, 'bn_1': 0, 'bn_2': 1, 'bn_3': 1, 'bn_4': 1, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 23s - loss: 81.5768 - val_loss: 52.7682
+Epoch 2/3
+6511/6511 - 22s - loss: 50.5077 - val_loss: 49.2810
+Epoch 3/3
+6511/6511 - 22s - loss: 48.6739 - val_loss: 48.3475
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 64, 'model_depth': 4, 'activation_1': 'relu', 'activation_2': 'tanh', 'activation_3': <function leaky_relu at 0x2b207bb24680>, 'activation_4': <function lrelu at 0x2b23a085e8c0>, 'activation_last': 'linear', 'lrinit': 0.0021536445372944604, 'epsilon': 0.1, 'dropout': 0.4972703429861499, 'l1_reg': 0.0061059093371589115, 'l2_reg': 0.00995049204060393, 'bn_1': 0, 'bn_2': 1, 'bn_3': 0, 'bn_4': 0, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 36s - loss: 69.3138 - val_loss: 40.6501
+Epoch 2/3
+6511/6511 - 35s - loss: 54.9408 - val_loss: 42.7913
+Epoch 3/3
+6511/6511 - 35s - loss: 53.5465 - val_loss: 39.9957
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 16, 'model_depth': 4, 'activation_1': <function lrelu at 0x2b23a085e8c0>, 'activation_2': 'tanh', 'activation_3': <function leaky_relu at 0x2b207bb24680>, 'activation_4': <function leaky_relu at 0x2b207bb24680>, 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.00014752519153205868, 'epsilon': 1e-08, 'dropout': 0.4937582687470828, 'l1_reg': 0.007180724455793118, 'l2_reg': 0.0009558039281625574, 'bn_1': 0, 'bn_2': 1, 'bn_3': 1, 'bn_4': 1, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 44s - loss: 242.8359 - val_loss: 63.1831
+Epoch 2/3
+6511/6511 - 43s - loss: 87.9793 - val_loss: 52.2226
+Epoch 3/3
+6511/6511 - 43s - loss: 76.4176 - val_loss: 48.8475
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 256, 'model_depth': 2, 'activation_1': 'relu', 'activation_2': <function leaky_relu at 0x2b207bb24680>, 'activation_3': <function leaky_relu at 0x2b207bb24680>, 'activation_4': <function lrelu at 0x2b23a085e8c0>, 'activation_last': 'linear', 'lrinit': 0.0003833739954361859, 'epsilon': 1, 'dropout': 0.2713994305478392, 'l1_reg': 0.004295666131842666, 'l2_reg': 0.0007409181466177572, 'bn_1': 1, 'bn_2': 0, 'bn_3': 0, 'bn_4': 0, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 30s - loss: 96.5623 - val_loss: 47.6469
+Epoch 2/3
+6511/6511 - 29s - loss: 44.9712 - val_loss: 42.2180
+Epoch 3/3
+6511/6511 - 29s - loss: 40.7653 - val_loss: 38.6848
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 512, 'model_depth': 2, 'activation_1': 'relu', 'activation_2': 'tanh', 'activation_3': <function lrelu at 0x2b23a085e8c0>, 'activation_4': <function leaky_relu at 0x2b207bb24680>, 'activation_last': 'linear', 'lrinit': 0.0002057939697700262, 'epsilon': 1e-07, 'dropout': 0.01824758732296955, 'l1_reg': 0.009273650492505817, 'l2_reg': 0.00786393231146542, 'bn_1': 1, 'bn_2': 0, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 30s - loss: 77.6595 - val_loss: 44.6078
+Epoch 2/3
+6511/6511 - 30s - loss: 42.1941 - val_loss: 40.3172
+Epoch 3/3
+6511/6511 - 30s - loss: 38.9588 - val_loss: 38.3815
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 64, 'model_depth': 2, 'activation_1': 'tanh', 'activation_2': <function lrelu at 0x2b23a085e8c0>, 'activation_3': <function lrelu at 0x2b23a085e8c0>, 'activation_4': 'elu', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.00010466252662722228, 'epsilon': 1, 'dropout': 0.44577851050433887, 'l1_reg': 0.008553876415485422, 'l2_reg': 0.0059703726578370885, 'bn_1': 0, 'bn_2': 0, 'bn_3': 1, 'bn_4': 1, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 23s - loss: 424.4766 - val_loss: 242.1445
+Epoch 2/3
+6511/6511 - 23s - loss: 170.9363 - val_loss: 131.7729
+Epoch 3/3
+6511/6511 - 23s - loss: 119.1318 - val_loss: 109.0988
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 256, 'model_depth': 3, 'activation_1': 'tanh', 'activation_2': <function lrelu at 0x2b23a085e8c0>, 'activation_3': 'elu', 'activation_4': 'elu', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.00020904005241807844, 'epsilon': 0.1, 'dropout': 0.29049985429503594, 'l1_reg': 0.00016123364443005662, 'l2_reg': 0.007262936091513599, 'bn_1': 1, 'bn_2': 1, 'bn_3': 0, 'bn_4': 0, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 42s - loss: 64.8894 - val_loss: 37.2786
+Epoch 2/3
+6511/6511 - 40s - loss: 38.6766 - val_loss: 35.4566
+Epoch 3/3
+6511/6511 - 42s - loss: 36.1160 - val_loss: 33.3433
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 256, 'model_depth': 3, 'activation_1': <function lrelu at 0x2b23a085e8c0>, 'activation_2': <function leaky_relu at 0x2b207bb24680>, 'activation_3': 'tanh', 'activation_4': 'elu', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.00015269326982838348, 'epsilon': 1, 'dropout': 0.14443743384619884, 'l1_reg': 0.003972168779019959, 'l2_reg': 0.00493871971179756, 'bn_1': 0, 'bn_2': 0, 'bn_3': 0, 'bn_4': 1, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 28s - loss: 199.2017 - val_loss: 104.1287
+Epoch 2/3
+6511/6511 - 27s - loss: 84.3599 - val_loss: 71.5888
+Epoch 3/3
+6511/6511 - 27s - loss: 67.0056 - val_loss: 61.3180
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 16, 'model_depth': 3, 'activation_1': 'elu', 'activation_2': 'relu', 'activation_3': 'tanh', 'activation_4': <function lrelu at 0x2b23a085e8c0>, 'activation_last': 'linear', 'lrinit': 0.009107927602103789, 'epsilon': 1e-07, 'dropout': 0.05804806199392726, 'l1_reg': 0.003033970220440283, 'l2_reg': 0.009753138286485117, 'bn_1': 0, 'bn_2': 0, 'bn_3': 0, 'bn_4': 1, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 26s - loss: 56.5416 - val_loss: 40.1771
+Epoch 2/3
+6511/6511 - 25s - loss: 44.4329 - val_loss: 39.2910
+Epoch 3/3
+6511/6511 - 25s - loss: 43.3200 - val_loss: 37.5924
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 16, 'model_depth': 4, 'activation_1': <function leaky_relu at 0x2b207bb24680>, 'activation_2': <function leaky_relu at 0x2b207bb24680>, 'activation_3': 'tanh', 'activation_4': 'tanh', 'activation_last': 'linear', 'lrinit': 0.002137425617111552, 'epsilon': 1, 'dropout': 0.4921385484177578, 'l1_reg': 0.007355984946039435, 'l2_reg': 0.0005310889485607439, 'bn_1': 1, 'bn_2': 1, 'bn_3': 0, 'bn_4': 1, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 43s - loss: 170.7307 - val_loss: 55.1496
+Epoch 2/3
+6511/6511 - 42s - loss: 95.9082 - val_loss: 51.0243
+Epoch 3/3
+6511/6511 - 42s - loss: 91.9326 - val_loss: 50.3245
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 256, 'model_depth': 2, 'activation_1': <function leaky_relu at 0x2b207bb24680>, 'activation_2': <function lrelu at 0x2b23a085e8c0>, 'activation_3': <function leaky_relu at 0x2b207bb24680>, 'activation_4': <function lrelu at 0x2b23a085e8c0>, 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.027139285198618773, 'epsilon': 1, 'dropout': 0.11065460356301249, 'l1_reg': 0.009087521441144343, 'l2_reg': 0.0006683197655954409, 'bn_1': 0, 'bn_2': 0, 'bn_3': 0, 'bn_4': 1, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 24s - loss: 60.8275 - val_loss: 47.0723
+Epoch 2/3
+6511/6511 - 23s - loss: 45.8568 - val_loss: 46.4956
+Epoch 3/3
+6511/6511 - 23s - loss: 44.0884 - val_loss: 43.3611
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 64, 'model_depth': 2, 'activation_1': 'tanh', 'activation_2': 'elu', 'activation_3': 'tanh', 'activation_4': 'elu', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.03585374824461504, 'epsilon': 0.1, 'dropout': 0.09265021083253339, 'l1_reg': 0.0017657423670782192, 'l2_reg': 0.0034928677535123087, 'bn_1': 0, 'bn_2': 1, 'bn_3': 0, 'bn_4': 1, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 24s - loss: 50.5088 - val_loss: 45.5222
+Epoch 2/3
+6511/6511 - 23s - loss: 45.3989 - val_loss: 44.6257
+Epoch 3/3
+6511/6511 - 23s - loss: 44.8708 - val_loss: 43.9262
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
+{'num_units': 256, 'model_depth': 4, 'activation_1': <function lrelu at 0x2b23a0823170>, 'activation_2': <function leaky_relu at 0x2b207bb24680>, 'activation_3': <function lrelu at 0x2b23a0823170>, 'activation_4': 'relu', 'activation_last': <function my_act_fct at 0x2b2028253cb0>, 'lrinit': 0.00147, 'epsilon': 1e-08, 'dropout': 0, 'l1_reg': 0.0034, 'l2_reg': 0.0003, 'bn_1': 1, 'bn_2': 0, 'bn_3': 1, 'bn_4': 0, 'optimizer': 'adam'}
+Epoch 1/3
+6511/6511 - 45s - loss: 40.0505 - val_loss: 31.5589
+Epoch 2/3
+6511/6511 - 43s - loss: 28.2525 - val_loss: 33.4153
+Epoch 3/3
+6511/6511 - 43s - loss: 26.3465 - val_loss: 24.3844
+Creation of the directory /pf/b/b309170/workspace_icon-ml/cloud_cover_parameterization/region_based_one_nn_R02B05/sherpa_results/2021-05_109546 failed
