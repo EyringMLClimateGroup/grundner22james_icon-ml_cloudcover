@@ -4,6 +4,8 @@ This repository is part of our paper submitted to JAMES.
 
 It contains the neural network and analysis code, and an extract from the training data.
 
+Corresponding DOI: [![DOI](https://zenodo.org/badge/436660284.svg)](https://zenodo.org/badge/latestdoi/436660284)
+
 ---------------
 **Structure of the six folders corresponding to the neural networks**
 
@@ -45,3 +47,4 @@ More specifically, this is the *new name <- old name* mapping for every model:
 - q1_cell_based_qubicc_r2b5 <- grid_cell_based_QUBICC_R02B05
 - q2_column_based_qubicc_r2b5 <- grid_column_based_QUBICC_R02B05
 - q3_neighborhood_based_qubicc_r2b5 <- region_based_one_nn_R02B05
+
