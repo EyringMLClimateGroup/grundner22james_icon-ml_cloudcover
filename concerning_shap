@@ -1,0 +1,10 @@
+Where we can find the code that led to the choices of the two SHAP hyperparameters:
+
+First SHAP hyperparameter (required size of the random subset of the training data necessary for convergence of the average NN prediction):
+- q2_column_based_qubicc_r2b5/source_code/shap_how_many_samples_to_infer_expected_value.ipynb
+
+--> 10^4 corresponds to a value of 5 on the x-axes and is our choice for the hyperparameter
+
+Second SHAP hyperparameter (required size of the random subset of the test data so that we can generate robust plots of averaged absolute SHAP values)
+- additional_content/shap_additional_files/sensitivity_to_background.ipynb
+- Average absolute SHAP values per subset size: /additional_content/shap_values/averaged_shap_values
