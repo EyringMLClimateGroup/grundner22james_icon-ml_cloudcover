@@ -1,0 +1,8 @@
+First round:
+592, 898 (best one for land)
+
+Second round:
+343 (best one for sea)
+
+Forth round:
+341

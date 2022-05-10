@@ -1,0 +1,10 @@
+Time it took to train the RFs:
+
+cell-based R2B4: 36 hrs
+neighborhood-based R2B4: 28 hrs
+column-based R2B4: 27 hrs
+cell-based R2B5: 26 hrs
+neighborhood-based R2B5 (md: 4): 13 hrs
+column-based R2B5 (md: 3): 13 hrs
+column-based R2B5 (md: 5): 22 hrs
+neighborhood-based R2B5 (md: 7): 22 hrs

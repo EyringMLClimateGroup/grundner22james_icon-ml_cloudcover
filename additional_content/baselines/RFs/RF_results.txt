@@ -1,0 +1,39 @@
+The MSE on the test set of the cell-based R2B4 RF is 10.40.
+The MSE on the validation set of the cell-based R2B5 RF is 25.90.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 2 is 0.03.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 3 is 0.47.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 4 is 2.52.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 5 is 5.94.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 6 is 6.46.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 7 is 4.33.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 8 is 2.49.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 9 is 2.00.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 10 is 1.77.
+The MSE on the test set of the column-based R2B4 RF is 6.15.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 11 is 1.57.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 12 is 1.39.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 13 is 1.25.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 14 is 0.85.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 15 is 0.51.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 16 is 0.54.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 17 is 0.70.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 18 is 0.98.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 19 is 1.48.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 20 is 2.12.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 21 is 2.41.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 22 is 2.03.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 23 is 0.90.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 24 is 0.32.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 25 is 0.13.
+The MSE on the test set of the neighborhood-based R2B4 RF on layer 26 is 0.07.
+The overall MSE on the test set of the neighborhood-based R2B4 RF is 1.73.
+The MSE on the test set of the cell-based R2B4 RF is 10.40.
+The MSE on the validation set of the cell-based R2B5 RF is 25.90.
+[The MSE on the validation set of the column-based R2B5 RF is 226.61. [max depth 3 -- too small for this purpose]]
+[The MSE on the validation set of the neighborhood-based R2B5 RF is 100.44. [max depth 4 -- too small for this purpose]]
+The MSE on the validation set of the column-based R2B5 RF is 161.98.
+The MSE on the validation set of the neighborhood-based R2B5 RF is 54.74.
+
+The MSE on the test set of the smaller cell-based R2B4 RF is 26.22.
+The MSE on the validation set of the smaller cell-based R2B5 RF with md of 8 is 85.86.
+[The MSE on the validation set of the smaller cell-based R2B5 RF with md of 10 is 73.25. [max depth 10 -- too large for this purpose]]
