@@ -1,0 +1,40 @@
+README concerning the extract of the coarse-grained NARVAL and QUBICC data available via DKRZ resources 
+
+Date: 5/30/2022
+
+T I T L E O F T H E D A T A S E T
+- NARVAL R2B4
+- NARVAL R2B5
+- QUBICC R2B5
+
+P A T H T O T H E D A T A S E T
+- /home/b/b309170/workspace_icon-ml/iconml_clc/extract_from_the_data
+
+O W N E R / P R O D U C E R O F T H E D A T A S E T 
+- Arthur Grundner
+
+D A T A U S A G E L I C E N S E 
+- See LICENSE File in this directory
+
+C O N T E N T O F T H E D A T A S E T
+- To an R2B4 and an R2B5 grid coarse-grained data from the NARVAL (Klocke et al., 2017: 'Rediscovery of the doldrums in storm-resolving simulations over the tropical Atlantic') 
+  and the QUBICC hindcast simulations hc2, hc3, hc4 (Giorgetta et al., 2022: 'The ICON-A model for direct QBO simulations on GPUs')
+- The dataset contains one timestep per day of cloud volume fraction data and one timestep with all variables
+- fr_lake: Fraction of lakes (2D), fr_land: Fraction of land (2D), pres/pfull: Pressure [Pa], qc/clw: Specific cloud water content [kg/kg], 
+  qi/cli: Specific cloud ice content [kg/kg], qv/hus: Specific humidity [kg/kg], rho: Air density [kg/m^3], temp/ta: Air temperature [K], u/ua: Zonal wind [m/s], 
+  v/va: Meridional wind [m/s], zg: Geometric height at full levels [m], zghalf: Geometric height at half levels [m], clc/cl: Cloud volume fraction [%],
+  cl_area: Cloud area fraction [%]
+
+D A T A U S A G E S C E N A R I O S
+- To study the link between the thermodynamic environment and cloud cover using the output of storm-resolving model simulations on a climate model resolution
+
+M E T H O D S U S E D F O R D A T A C R E A T I O N
+- See 'Deep Learning Based Cloud Cover Parameterization for ICON' (Grundner et al., 2022)
+
+I S S U E S
+- There is a temporal mismatch between some model output variables from one common time step. 
+  This is caused by the sequential processing of some parameterization schemes in the ICON model. 
+  For instance, the cloud cover scheme diagnoses cloud cover before the microphysics scheme alters the cloud condensate mixing ratio, 
+  which has led to $\approx$\,7\% of the cloudy grid cells in our data to be condensate-free. 
+  However, this mismatch should not exceed the fast physics time step in the model, which was set to 40 seconds in the QUBICC and to five minutes in the NARVAL simulations.
+- The mixing length in the vertical diffusion scheme was mistakenly set to 1000m instead of 150m, causing unrealistically strong vertical diffusion in some situations.
