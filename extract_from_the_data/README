@@ -33,9 +33,7 @@ M E T H O D S U S E D F O R D A T A C R E A T I O N
 - See 'Deep Learning Based Cloud Cover Parameterization for ICON' (Grundner et al., 2022)
 
 I S S U E S
-- There is a temporal mismatch between some model output variables from one common time step. 
-  This is caused by the sequential processing of some parameterization schemes in the ICON model. 
-  For instance, the cloud cover scheme diagnoses cloud cover before the microphysics scheme alters the cloud condensate mixing ratio, 
-  which has led to $\approx$\,7\% of the cloudy grid cells in our data to be condensate-free. 
+- There is a temporal mismatch between some model output variables from one common time step. This is caused by the sequential processing of some parameterization schemes in the ICON model. 
+  For instance, the cloud cover scheme diagnoses cloud cover before the microphysics scheme alters the cloud condensate mixing ratio, which has led to $\approx$\,7\% of the cloudy grid cells in our data to be condensate-free. 
   However, this mismatch should not exceed the fast physics time step in the model, which was set to 40 seconds in the QUBICC and to five minutes in the NARVAL simulations.
 - The mixing length in the vertical diffusion scheme was mistakenly set to 1000m instead of 150m, causing unrealistically strong vertical diffusion in some situations.
