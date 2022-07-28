@@ -13,9 +13,7 @@ There are essentially three notebooks in each of the folders corresponding to ea
 `n1*, n2*, n3*, q1*, q2*, q3*`:
 
 1. In **preprocessing** notebooks: <br>
-We read the coarse-grained data from nc-files, preprocess it, and store it in npy-files for faster access.
-The NARVAL data is standardized w.r.t. mean and variance of the training dataset before it was stored.
-The QUBICC data is not standardized and split up yet, due to the three-fold cross-validation split.
+We read the coarse-grained data from nc-files, preprocess it, and store it in npy-files for faster access. The NARVAL data is standardized w.r.t. mean and variance of the training dataset before it was stored. The QUBICC data is not standardized and split up yet, due to the three-fold cross-validation split. A fraction of the coarse-grained and/or preprocessed data is located in /extract_from_the_data.
 
 2. In **commence training** notebooks: <br>
 We load the data from the npy-files, standardize and split it up for the QUBICC models, and train our neural networks on it.
@@ -23,6 +21,8 @@ We load the data from the npy-files, standardize and split it up for the QUBICC 
 3. The **evaluation** notebooks <br>
 Contain the evaluation of the models. But note that the generated figures were not used in the paper directly (see overview_figures.txt).
 Much of the QUBICC model evaluation is done in /additional_content/plots_offline_paper/qubicc_model_plots.ipynb.
+
+---------------
 
 ---------------
 **Old model names**
