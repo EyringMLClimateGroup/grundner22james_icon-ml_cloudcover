@@ -13,20 +13,9 @@ There are essentially three notebooks in each of the folders corresponding to ea
 `n1*, n2*, n3*, q1*, q2*, q3*`:
 
 1. In **preprocessing** notebooks: <br>
-We read the coarse-grained data from nc-files, preprocess it, and store it in npy-files for faster access
-
-*The data for the NARVAL models:*
-- cloud_cover_all_days_input_train_\*.npy
-- cloud_cover_all_days_input_valid_\*.npy
-- cloud_cover_all_days_input_test_\*.npy 
-
-This data was standardized w.r.t. mean and variance of the training dataset before it was stored
-
-*The data for the QUBICC models:*
-- cloud_cover_input_qubicc.npy 
-- cloud_cover_output_qubicc.npy 
-
-This data was not standardized and split up yet, due to the three-fold cross-validation split
+We read the coarse-grained data from nc-files, preprocess it, and store it in npy-files for faster access.
+The NARVAL data is standardized w.r.t. mean and variance of the training dataset before it was stored.
+The QUBICC data is not standardized and split up yet, due to the three-fold cross-validation split.
 
 2. In **commence training** notebooks: <br>
 We load the data from the npy-files, standardize and split it up for the QUBICC models, and train our neural networks on it.
