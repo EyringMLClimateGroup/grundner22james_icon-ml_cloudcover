@@ -40,28 +40,89 @@ class TimeOut(keras.callbacks.Callback):
         except:
             print('\nTraining is finished or no validation set was provided.')
             
-def simple_sundqvist_scheme_rh(r, p, ps=101325):
+def simple_sundqvist_scheme_rh(r, p, fr_land, ps=101325, tuned='original'):
     '''
         As a function of relative humidity [0, 1] and pressure [Pa]
         Furthermore ps is surface pressure (on average 101325 Pa)
+        tuned: ['manually', 'automatically', 'original']
         Output is cloud cover in [0, 1]
     '''
-    rsat = 1
-    r0_top = 0.8
-    r0_surf = 0.968
-    n = 2
+    
+    if tuned=='manually_r2b5':
+        rsat_best_land = 1.1
+        r0_top_best_land = 0.2
+        r0_surf_best_land = 0.85
+        n_best_land = 1.62
+
+        rsat_best_sea = 1
+        r0_top_best_sea = 0.34
+        r0_surf_best_sea = 0.95
+        n_best_sea = 1.35
+    elif tuned=='automatically_r2b5':
+        rsat_best_land = 1.478
+        r0_top_best_land = 0.005
+        r0_surf_best_land = 0.494
+        n_best_land = 1.114
+
+        rsat_best_sea = 1.425
+        r0_top_best_sea = 0.039
+        r0_surf_best_sea = 0.765
+        n_best_sea = 1.283
+    elif tuned=='manually_r2b4':
+        rsat_best_land = 1.12
+        r0_top_best_land = 0.3
+        r0_surf_best_land = 0.92
+        n_best_land = 0.8
+
+        rsat_best_sea = 1.07
+        r0_top_best_sea = 0.42
+        r0_surf_best_sea = 0.9
+        n_best_sea = 1.1
+    elif tuned=='automatically_r2b4':
+        rsat_best_land = 2.52
+        r0_top_best_land = 0
+        r0_surf_best_land = 0.59
+        n_best_land = 0.91
+
+        rsat_best_sea = 2.15
+        r0_top_best_sea = 0.16
+        r0_surf_best_sea = 0.71
+        n_best_sea = 1.97
+    elif tuned=='original':
+        rsat_best_land = 1
+        r0_top_best_land = 0.8
+        r0_surf_best_land = 0.968
+        n_best_land = 2
+        
+        rsat_best_sea = rsat_best_land
+        r0_top_best_sea = r0_top_best_land
+        r0_surf_best_sea = r0_surf_best_land
+        n_best_sea = n_best_land
+    
+    if fr_land > 0.5:
+        rsat = rsat_best_land
+        r0_top = r0_top_best_land
+        r0_surf = r0_surf_best_land
+        n = n_best_land
+    else:
+        rsat = rsat_best_sea
+        r0_top = r0_top_best_sea
+        r0_surf = r0_surf_best_sea
+        n = n_best_sea
+    
     r0 = r0_top + (r0_surf - r0_top)*np.exp(1-(ps/p)**n)
     
     c = 0
     if r > r0:
-        # r can actually slightly exceed 1 
-        c = 1 - np.sqrt((np.minimum(r, 1) - rsat)/(r0 - rsat))
+        # r can actually slightly exceed 1         
+        c = 1 - np.sqrt((np.minimum(r, rsat) - rsat)/(r0 - rsat)) # in [0,1]
     return c
 
-def simple_sundqvist_scheme(qv, T, p, ps=101325):
+def simple_sundqvist_scheme(qv, T, p, fr_land, ps=101325, tuned='original'):
     '''
         As a function of specific humidity [kg/kg], temperature [K] and pressure [Pa]
         Furthermore ps is surface pressure (on average 101325 Pa)
+        tuned: ['manually', 'automatically', 'original']
         Output is cloud cover in [0, 1]
     '''
     # Computing relative humidity r 
@@ -69,7 +130,7 @@ def simple_sundqvist_scheme(qv, T, p, ps=101325):
     T0 = 273.15
     r = 0.00263*p*qv*np.exp((17.67*(T-T0))/(T-29.65))**(-1)
     
-    return simple_sundqvist_scheme_rh(r, p, ps)
+    return simple_sundqvist_scheme_rh(r, p, fr_land, ps, tuned)
 
 def write_infofile(file, input_and_output_vars, input_vars, model_path, output_path, NUM):
     '''
@@ -158,7 +219,7 @@ def load_data(source, days, vert_interp=True, resolution='R02B04', order_of_vars
         Loads data from the NARVAL or QUBICC experiment and stores it in a dictionary.
         
         source:        narval, qubicc
-        days:          all, august, dec_1st, nov_2nd, nov_20s, all_hcs
+        days:          all (this loads only Nov, 2004 in the case of QUBICC!), august, dec_1st, nov_2nd, nov_20s, all_hcs
         vert_interp:   Whether the data is vertically interpolated. Only needs to be specified for NARVAL with 'R02B04'
         resolution:    'R02B04' or 'R02B05'
         order_of_vars: If provided, the returned dictionary will have the variables in the specified order.
@@ -179,25 +240,25 @@ def load_data(source, days, vert_interp=True, resolution='R02B04', order_of_vars
     # ['qv', 'qc', 'qi', 'temp', 'pres', 'rho', 'u', 'v', 'zg', 'coriolis', 'fr_lake', 'fr_land', 'clc', 'cl_area']
     if source == 'narval':
         if vert_interp == True and resolution == 'R02B04':
-            path = '/pf/b/b309170/my_work/NARVAL/data_var_vertinterp/'
+            path = '/home/b/b309170/my_work/NARVAL/data_var_vertinterp/'
 #             surface_nearest_layer = 30
             file_name_prefix = 'int_var_'
             height_variable_name = 'zg'
             height_file_location = 'zg/zg_icon-a_capped.nc'
         elif vert_interp == False and resolution == 'R02B04':
-            path = '/pf/b/b309170/my_work/NARVAL/data/'
+            path = '/home/b/b309170/my_work/NARVAL/data/'
 #             surface_nearest_layer = 74
             file_name_prefix = ''
             height_variable_name = 'zf'
             height_file_location = 'z_ifc/zf_R02B04_NARVALI_fg_DOM01.nc'
         elif resolution == 'R02B05':
-            path = '/pf/b/b309170/my_work/NARVAL/data_var_vertinterp_R02B05/'
+            path = '/home/b/b309170/my_work/NARVAL/data_var_vertinterp_R02B05/'
             file_name_prefix = 'int_var_'
             height_variable_name = 'zg'
             height_file_location = 'zg/zg_icon-a_capped.nc'
             
         # Grid path and name for the Coriolis Parameter
-        grid_path = '/pf/b/b309170/my_work/NARVAL/grid_extpar'
+        grid_path = '/home/b/b309170/my_work/NARVAL/grid_extpar'
         if resolution == 'R02B04':
             grid_name = 'icon_grid_0005_R02B04_G.nc'
         elif resolution == 'R02B05':
@@ -293,30 +354,30 @@ def load_data(source, days, vert_interp=True, resolution='R02B04', order_of_vars
     if source == 'qubicc':
         
         if resolution == 'R02B04':
-            path = '/pf/b/b309170/my_work/QUBICC/data_var_vertinterp/'
+            path = '/home/b/b309170/my_work/QUBICC/data_var_vertinterp/'
 #             surface_nearest_layer = 74
 #             file_name_prefix = ''
             height_filename = 'zg_icon-a_capped.nc'
         elif resolution == 'R02B05':
-            path = '/pf/b/b309170/my_work/QUBICC/data_var_vertinterp_R02B05/'
+            path = '/home/b/b309170/my_work/QUBICC/data_var_vertinterp_R02B05/'
 #             file_name_prefix = 'int_var_'
             height_filename = 'zg_icon-a_capped_R02B05.nc'
     
         # Grid path and name for the Coriolis Parameter
-        grid_path = '/pf/b/b309170/my_work/QUBICC/grids'
+        grid_path = '/home/b/b309170/my_work/QUBICC/grids'
         if resolution == 'R02B04':
             grid_name = 'icon_grid_0013_R02B04_G.nc'
         elif resolution == 'R02B05':
             grid_name = 'icon_grid_0019_R02B05_G.nc'        
         
         # Get not_nan quickly
-        DS = xr.open_mfdataset(path+'cl/int_var_hc2_02_p1m_cl_ml_20041107T100000Z_'+resolution+'.nc', combine='by_coords')
+        DS = xr.open_dataset(path+'cl/int_var_hc2_02_p1m_cl_ml_20041107T100000Z_'+resolution+'.nc')
         da = DS.cl.values
-        not_nan = ~np.isnan(da[0,30,:]) #The surface-nearest layer 30 shall not contain NAN-values
+        not_nan = ~np.isnan(da[0,-1,:]) #The surface-nearest layer 30 shall not contain NAN-values
 
         ## Time-invariant input
         #zg
-        DS = xr.open_dataset('/pf/b/b309170/my_work/QUBICC/grids/'+height_filename)
+        DS = xr.open_dataset('/home/b/b309170/my_work/QUBICC/grids/'+height_filename)
         da = DS.zg.values
         #not_nan = ~np.isnan(da[0,:])
         data_dict['zg'] = da[:,not_nan]
@@ -383,6 +444,52 @@ def load_data(source, days, vert_interp=True, resolution='R02B04', order_of_vars
     
     return data_dict
 
+def get_cg_nans(source, vert_interp=True, resolution='R02B04', order_of_vars=None):
+    '''
+        Through coarse-graining some (surface-closest) fields are set to nan due to the differing topography between high-res and low-res.
+        This method returns an array containing the information which horizontal fields are nans.
+        
+        source:        narval, qubicc
+        vert_interp:   Whether the data is vertically interpolated. Only needs to be specified for NARVAL with 'R02B04'
+        resolution:    'R02B04' or 'R02B05'
+        
+        returns: A boolean array showing which fields are nans.
+    '''
+    ############
+    ## NARVAL ##
+    ############
+    if source == 'narval':
+        if vert_interp == True and resolution == 'R02B04':
+            path = '/home/b/b309170/my_work/NARVAL/data_var_vertinterp/'
+            file_name_prefix = 'int_var_'
+        elif vert_interp == False and resolution == 'R02B04':
+            path = '/home/b/b309170/my_work/NARVAL/data/'
+            file_name_prefix = ''
+        elif resolution == 'R02B05':
+            path = '/home/b/b309170/my_work/NARVAL/data_var_vertinterp_R02B05/'
+            file_name_prefix = 'int_var_'
+            
+        # Get not_nan quickly 
+        DS = xr.open_dataset(path+'clc/'+file_name_prefix+'clc_'+resolution+'_NARVALI_2013123100_cloud_DOM01_0034.nc')
+        da = DS.clc.values
+        not_nan = ~np.isnan(da[0,-1,:]) #The surface-nearest layer shall not contain NAN-values
+    
+    ############
+    ## QUBICC ##
+    ############
+    if source == 'qubicc':
+        if resolution == 'R02B04':
+            path = '/home/b/b309170/my_work/QUBICC/data_var_vertinterp/'
+        elif resolution == 'R02B05':
+            path = '/home/b/b309170/my_work/QUBICC/data_var_vertinterp_R02B05/'
+        
+        # Get not_nan quickly
+        DS = xr.open_dataset(path+'cl/int_var_hc2_02_p1m_cl_ml_20041107T100000Z_'+resolution+'.nc')
+        da = DS.cl.values
+        not_nan = ~np.isnan(da[0,-1,:]) #The surface-nearest layer 30 shall not contain NAN-values
+        
+    return not_nan
+
 
 def load_all_data(days, order_of_vars=None):
     '''
@@ -399,7 +506,7 @@ def load_all_data(days, order_of_vars=None):
     # Yields default (order of) variables: 
     # ['qv', 'qc', 'qi', 'temp', 'pres', 'rho', 'u', 'v', 'zf', 'fr_lake', 'fr_land', 'clc']
     
-    path = '/pf/b/b309170/my_work/NARVAL/data/'
+    path = '/home/b/b309170/my_work/NARVAL/data/'
 #     surface_nearest_layer = 74
     file_name_prefix = ''
     height_variable_name = 'zf'
@@ -459,21 +566,3 @@ def load_all_data(days, order_of_vars=None):
             data_dict = OrderedDict((k, data_dict[k]) for k in order_of_vars)
     
     return data_dict
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
