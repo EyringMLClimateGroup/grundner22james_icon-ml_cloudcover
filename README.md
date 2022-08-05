@@ -7,6 +7,12 @@ It contains the neural network and analysis code, and an extract from the traini
 Corresponding DOI: [![DOI](https://zenodo.org/badge/436660284.svg)](https://zenodo.org/badge/latestdoi/436660284)
 
 ---------------
+**Usage**
+
+To install or re-run parts of the code, please install the environment by executing *conda env create -f clouds113_env_with_shap.yml*. 
+The Sherpa package is not included in the environment file and would, if required, need to be installed separately (*pip install sherpa*, version 4.12.1). We provide the data for *quickstart.ipynb*, which can directly be executed. Other than that a fraction of the data used to train the networks is located in */extract_from_the_data* and described in */extract_from_the_data/README*.
+
+---------------
 **Structure of the six folders corresponding to the neural networks**
 
 There are essentially three notebooks in each of the folders corresponding to each of the models <br>
@@ -21,8 +27,6 @@ We load the data from the npy-files, standardize and split it up for the QUBICC 
 3. The **evaluation** notebooks <br>
 Contain the evaluation of the models. But note that the generated figures were not used in the paper directly (see overview_figures.txt).
 Much of the QUBICC model evaluation is done in /additional_content/plots_offline_paper/qubicc_model_plots.ipynb.
-
----------------
 
 ---------------
 **Old model names**
