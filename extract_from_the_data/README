@@ -1,17 +1,20 @@
 README concerning the extract of the coarse-grained NARVAL and QUBICC data available via DKRZ resources 
 
-Date: 5/30/2022
+Date: 8/11/2022
 
 T I T L E O F T H E D A T A S E T
-- NARVAL R2B4
-- NARVAL R2B5
-- QUBICC R2B5
+- NARVAL R2B10 coarse-grained to R2B4
+- NARVAL R2B10 coarse-grained to R2B5
+- QUBICC R2B9 coarse-grained to R2B5
 
 P A T H T O T H E D A T A S E T
 - /home/b/b309170/workspace_icon-ml/iconml_clc/extract_from_the_data
 
 O W N E R / P R O D U C E R O F T H E D A T A S E T 
-- Arthur Grundner and Deutsches Zentrum fuer Luft- und Raumfahrt e. V., D-51170 Koeln
+- NARVAL R2B10: [Cathy Hohenegger or Daniel Klocke?] and Max-Planck-Institut für Meteorologie, Hamburg
+Coarse-grained to R2B4 and R2B5: Arthur Grundner and Deutsches Zentrum fuer Luft- und Raumfahrt e. V., D-51170 Koeln
+- QUBICC R2B9: Marco Giorgetta and Max-Planck-Institut für Meteorologie, Hamburg 
+Coarse-grained to R2B5: Arthur Grundner and Deutsches Zentrum fuer Luft- und Raumfahrt e. V., D-51170 Koeln
 
 D A T A U S A G E L I C E N S E 
 - See LICENSE File in this directory
