@@ -26,7 +26,7 @@ We load the data from the npy-files, standardize and split it up for the QUBICC 
 
 3. The **evaluation** notebooks <br>
 Contain the evaluation of the models. But note that the generated figures were not used in the paper directly (see [overview_figures](../master/overview_figures)).
-Much of the QUBICC model evaluation is done in [additional_content/plots_offline_paper/qubicc_model_plots.ipynb](../master/additional_content/plots_offline_paper/qubicc_model_plots.ipynb).
+Much of the QUBICC model evaluation is done in [additional_content/plots_offline_paper/qubicc_models_plots.ipynb](../master/additional_content/plots_offline_paper/qubicc_models_plots.ipynb).
 
 ---------------
 **Old model names**
