@@ -1,6 +1,8 @@
-# iconml_clc
+# icon-ml_cloudcover
 A neural network based cloud cover parameterization for the ICON-A model. <br>
 This repository is part of our paper submitted to JAMES. 
+
+It is available on ArXiV: https://arxiv.org/abs/2112.11317
 
 It contains the neural network and analysis code, and an extract from the training data.
 
