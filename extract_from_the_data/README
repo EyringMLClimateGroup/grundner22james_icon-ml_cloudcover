@@ -1,6 +1,6 @@
 README concerning the extract of the coarse-grained NARVAL and QUBICC data available via DKRZ resources 
 
-Date: 8/11/2022
+Date: 9/1/2022
 
 T I T L E O F T H E D A T A S E T
 - NARVAL R2B10 coarse-grained to R2B4
@@ -39,5 +39,5 @@ I S S U E S
 - There is a temporal mismatch between some model output variables from one common time step. This is caused by the sequential processing of some parameterization schemes 
   in the ICON model. For instance, the cloud cover scheme diagnoses cloud cover before the microphysics scheme alters the cloud condensate mixing ratio, which has led 
   to roughly 7% of the cloudy grid cells in our data to be condensate-free. However, this mismatch should not exceed the fast physics time step in the model, which 
-  was set to 40 seconds in the QUBICC and to five minutes in the NARVAL simulations.
+  was set to 40 seconds in the QUBICC and to 24 seconds in the NARVAL simulations.
 - The mixing length in the vertical diffusion scheme was mistakenly set to 1000m instead of 150m, causing unrealistically strong vertical diffusion in some situations.
