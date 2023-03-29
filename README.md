@@ -1,4 +1,4 @@
-# ML-based cloud cover parameterization for the ICON model
+# ML-based cloud cover parameterization for ICON
 A neural network based cloud cover parameterization for the ICON-A model. <br>
 This repository contains the neural network and analysis code, and an extract from the training data.
 
