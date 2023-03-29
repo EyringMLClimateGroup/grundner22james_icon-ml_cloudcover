@@ -2,7 +2,7 @@
 A neural network based cloud cover parameterization for the ICON-A model. <br>
 This repository contains the neural network and analysis code, and an extract from the training data.
 
-This repository is part of our paper published in JAMES:
+It is part of our paper published in JAMES:
 > Grundner, A., Beucler, T., Gentine, P., Iglesias-Suarez, F., Giorgetta, M. A., & Eyring, V. (2022). Deep learning based cloud cover parameterization for ICON. Journal of Advances in Modeling Earth Systems, 14, e2021MS002959. https://doi.org/10.1029/2021MS002959 
 
 Link to the pre-print: [arXiv:2112.11317](https://arxiv.org/abs/2112.11317)
